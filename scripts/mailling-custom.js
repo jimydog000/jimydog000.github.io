@@ -1,0 +1,1 @@
+function InsertMailToTag(a,t){var e,i="&#64;";e=a,e=""+e+i,e+=t,document.write("<a href='mailto:"+e+"'>"+e+"</A>")}
