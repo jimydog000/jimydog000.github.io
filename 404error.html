@@ -3,45 +3,47 @@
 <head>
     <meta charset="utf-8">
     <title>Hobart Milk Factory</title>
-    <meta name="description" content="Contact Page">
+    <meta name="description" content="404 Error Page">
     <meta name="author" content="James Taylor">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="apple-touch-icon" href="images/logo/HMC_Logo_Greyscale_1_AppleTouchIcon.png">
     <link rel="icon" href="images/logo/HMC_Logo_Greyscale_1_AppleTouchIcon.png">
     
     <link rel="stylesheet" href="styles/style1.css">
-    
+
     <link href="https://fonts.googleapis.com/css?family=Vollkorn" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Signika" rel="stylesheet">
-    <script src="https://use.fontawesome.com/06d7e7fe6f.js"></script>
+    <script src="https://use.fontawesome.com/06d7e7fe6f.js"></script> 
     
     <!--[if lt IE 9]>
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
     <![endif]-->
 </head>
 
-<body>  
-    <header>
+<body>
+    <script type="text/javascript" src="scripts/sidebar-script.js"></script>
+    
+    <header>        
         <a href="index.html"><img src="images/logo/HMC_Logo_Greyscale_1.png" alt="Site Logo"></a>
         <!--<h1>Hobart Milk Factory</h1>-->
     </header>
     
     <nav>
-        <div id = "navDiv">
+        <div id = "navDiv"> <!--<div class="menu-inner"><div class="menu-inner-most"> -->
             <ul>
                 <li class = "hoverable"><a class="nav-desktop" href="index.html">Who We Are</a></li>
                 <li class = "hoverable"><a class="nav-desktop" href="whereourmilkgoes.html">Where Our Milk Goes</a></li>
                 <li class = "hoverable"><a class="nav-desktop" href="products.html">Products</a></li>
-                <li><a class="activeNav nav-desktop">Contact</a></li>
+                <li class = "hoverable"><a class="nav-desktop" href="contact.html">Contact</a></li>
                 <li class = "hoverable"><a class="nav-desktop" href="social.html">Social</a></li>
-
+                
                 <li><a class="collpsnav-hide-large collpsnav-menu-button collpsnav-right" href="javascript:void(0)" onclick="sidebar_open()"><i id="menu" class="fa fa-bars"></i></a></li>
                 
                 <li><a ></a></li>
             </ul>
-        </div>
-        <!-- Sidebar (hidden by default) -->
-        <div id="mySidebar" class="collpsnav-sidebar collpsnav-bar-block collpsnav-card-2 collpsnav-top collpsnav-xlarge collpsnav-animate-top">
+        </div> <!--</div> </div> -->
+                <!-- Sidebar (hidden by default) -->
+        <div id="mySidebar" class="collpsnav-sidebar collpsnav-bar-block collpsnav-card-2 collpsnav-top collpsnav-animate-top">
             <a href="javascript:void(0)" onclick="sidebar_close()" class="collpsnav-bar-item collpsnav-button">Close Menu</a>
             <a href="index.html" onclick="sidebar_close()" class="collpsnav-bar-item collpsnav-button">Who We Are</a>
             <a href="whereourmilkgoes.html" onclick="sidebar_close()" class="collpsnav-bar-item collpsnav-button">Where To Find Our Milk</a>
@@ -51,13 +53,11 @@
         </div>
     </nav>
     
-    <main> 
-        <h2>Contact</h2>
-        <address>
-            <p>56 Gormanston Road Moonah TAS 7009 <br> 0417 288 912 or 0402 348 263 <br>
-            <a href="mailto:hobartmilkfactory@gmail.com">hobartmilkfactory@gmail.com </a> </p>
-        </address>
-        
+    <main>
+        <h2>404 ERROR</h2>
+        <p>The page you are looking for does not exist.</p>
+        <h1>Here are the webpages that do exist on this domain: <br><a href="index.html">Who We Are</a><br><a href="whereourmilkgoes.html">Where Our Milk Goes</a><br><a href="products.html">Products</a><br><a href="social.html">Social</a><br><a href="contact.html">Contact</a><br></h1>
+
         <div style="clear:both;"></div>
     </main>
     
@@ -65,11 +65,10 @@
         <a href="https://www.facebook.com/hobartmilkfactory/"><i  class="fa fa-facebook-official"></i></a>
         <a href="https://www.instagram.com/hobartmilkfactory/"><i  class="fa fa-instagram"></i></a>
     </footer>
-    
-    <script type="text/javascript" src="scripts/mailling-custom.js"></script>
-    <script type="text/javascript" src="scripts/sidebar-custom.js"></script>
-    <script type="text/javascript" src="scripts/fixed-nav.js"></script>
-    
     <script>document.createElement('main');</script>
-</body>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script type="text/javascript" src="scripts/sidebar-custom.js"></script>
+    <script type="text/javascript" src="scripts/fixed-nav.js"></script>  
+    
+</body>    
 </html>
