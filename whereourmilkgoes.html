@@ -21,22 +21,25 @@
     <link rel="icon" type="image/png" sizes="16x16" href="images/logo/favicon-16x16.png">
     
     <!--[if IE 9]>
-    <link rel="shortcut icon" href="images/logo/HMC_Logo_Greyscale_favicon.ico">
+        <link rel="shortcut icon" href="images/logo/HMC_Logo_Greyscale_favicon.ico">
+        <link rel="stylesheet" href="styles/style2-ie.css">
     <![endif]-->
     <!--[if lt IE 9]>
-    <link rel="shortcut icon" href="images/logo/HMC_Logo_Greyscale_favicon.ico">
-    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
+        <link rel="shortcut icon" href="images/logo/HMC_Logo_Greyscale_favicon.ico">
+        <link rel="stylesheet" href="styles/style2-ie.css">
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
     <![endif]-->
 </head>
 
 <body onload="map1()">
 
     <header>
-        <a href="index.html"><img src="images/logo/HMC_Logo_Greyscale_1.png" alt="Site Logo"></a>
+        <a class="elseImg" href="index.html"><img src="images/logo/HMC_Logo_Greyscale_2.jpg" alt="Site Logo"></a>
+        <a class="ieImg" href="index.html"><img src="images/logo/logo-ie.jpg" alt="Site Logo"></a>
         <!--<h1>Hobart Milk Factory</h1>-->
     </header>
     
-        <nav>
+    <nav>
         <div id = "navDiv">
             <ul>
                 <li class = "hoverable"><a class="nav-desktop" href="index.html">Who We Are</a></li>
@@ -47,7 +50,7 @@
                 <li><a class="collpsnav-hide-large collpsnav-menu-button collpsnav-right" href="javascript:void(0)" onclick="sidebar_open()"><i id="menu" class="fa fa-bars"></i></a></li>
             </ul>
         </div>
-                <!-- Sidebar (hidden by default) -->
+        <!-- Sidebar (hidden by default) -->
         <div id="mySidebar" class="collpsnav-sidebar collpsnav-bar-block collpsnav-card-2 collpsnav-top collpsnav-xlarge collpsnav-animate-top">
             <a href="index.html" onclick="sidebar_close()" class="collpsnav-bar-item collpsnav-button">Who We Are</a>
             <a href="whereourmilkgoes.html" onclick="sidebar_close()" class="collpsnav-bar-item collpsnav-button">Where To Find Our Milk</a>
@@ -60,9 +63,8 @@
     <main>
         <h2>Where To Find Our Milk</h2>
         <p>Our milk is bottled... <a href="contact.html">contact us</a> to find out about more <br> We delliver to the following retailers: </p>
+        <noscript><a>PLEASE turn JavaScript on to get an interactive map and other features of this website.</a><img class="imgCentre" src="images/images_1/bloke-pouring-milk.jpg" alt="A map of retailers"></noscript>
         <div id="map"></div>
-        
-        <noscript><img src="images/images_1/bloke-pouring-milk.jpg" alt="A map of retailers"></noscript>
         
         <div style="clear:both;"></div>
     </main>
