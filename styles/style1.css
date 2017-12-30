@@ -139,7 +139,7 @@ a.nav-desktop {
 
 /*--------------COLLAPSABLE NAV FOR MOBILE------------*/
 .collpsnav-sidebar {
-    background-color: ghostwhite;
+    background-color: #ffe300;
     position: relative!important;
     z-index: 400!important;
     overflow: auto;
