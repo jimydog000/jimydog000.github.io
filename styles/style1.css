@@ -129,6 +129,7 @@ a.nav-desktop {
 /*--------------STICKY NAV------------*/
 .nav-placeholder {
     margin: 0 auto;
+    transform: translate(0,0,0);
 }
 .fixed {
     position: fixed;
