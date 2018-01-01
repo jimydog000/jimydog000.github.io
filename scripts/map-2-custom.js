@@ -1,1 +1,0 @@
-function map2(){var n={lat:-42.8424975,lng:147.2974353},o=new google.maps.Map(document.getElementById("map"),{zoom:11,center:n}),e=new google.maps.Marker({position:n,map:o,title:"56 Gorganston Road Moonah"}),t="<h1>content</h1>",a=new google.maps.InfoWindow({content:t});e.addListener("click",function(){a.open(o,e)})}
