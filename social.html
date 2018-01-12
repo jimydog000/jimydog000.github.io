@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang="en-AU">
+<head>
+    <meta charset="utf-8">
+    <title>Hobart Milk Factory</title>
+    <meta name="description" content="Social Page">
+    <meta name="author" content="James Taylor">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <link rel="stylesheet" href="styles/style1.css">
+    
+    <link href="https://fonts.googleapis.com/css?family=Vollkorn" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Signika" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+    <link rel="apple-touch-icon-precomposed" href="images/icons/favicon_Apple.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="images/icons/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="images/icons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="images/icons/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="images/icons/favicon-16x16.png">
+    <link rel="shortcut icon" href="images/icons/favicon.ico">
+    
+    <link rel="preload" href="scripts/navigation.js" as="script">
+    
+    <!--[if IE 9]|[if lt IE 9]>
+        <link rel="stylesheet" href="styles/style2-ie.css">
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
+    <![endif]-->
+</head>
+
+<body>
+
+    <header>
+        <a class="elseImg" href="index.html"><img src="images/icons/logo_greyscale.png" alt="Site Logo"></a>
+        <a class="ieImg" href="index.html"><img src="images/icons/logo_greyscale_ie.jpg" alt="Site Logo"></a>
+    </header>
+
+    <nav>
+        <div id = "mainNav">
+            <ul>
+                <li><a class="hoverable hide-small" href="index.html">Who We Are</a></li>
+                <li><a class="hoverable hide-small" href="whereourmilkgoes.html">Where To Find Our Milk</a></li>
+                <li><a class="hoverable hide-small" href="products.html">Products</a></li>
+                <li><a class="hoverable hide-small" href="contact.html">Contact</a></li>
+                <li><a class="activeNav hide-small" href="social.html">Social</a></li>
+                <li><a class="hide-large menu-button" href="javascript:void(0)" onclick="sidebar_open()"><i class="fa fa-bars"></i></a></li>
+            </ul>
+        </div>
+        <!-- Sidebar (hidden by default) -->
+        <div id="sidebar" class="hide-large collpsnav-sidebar collpsnav-bar-block collpsnav-shadow  collpsnav-animate-top">
+            <a href="index.html" class="collpsnav-bar-item collpsnav-button">Who We Are</a>
+            <a href="whereourmilkgoes.html" class="collpsnav-bar-item collpsnav-button">Where To Find Our Milk</a>
+            <a href="products.html" class="collpsnav-bar-item collpsnav-button">Products</a>
+            <a href="social.html" class="activeNav collpsnav-bar-item collpsnav-button">Social</a>
+            <a href="contact.html" class="collpsnav-bar-item collpsnav-button">Contact</a>
+        </div>
+    </nav>
+    
+    <main>
+        <div id="fb-root"></div>
+        <script>(function(d, s, id) {
+          var js, fjs = d.getElementsByTagName(s)[0];
+          if (d.getElementById(id)) return;
+          js = d.createElement(s); js.id = id;
+          js.src = 'https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.11&appId=206018473137';
+          fjs.parentNode.insertBefore(js, fjs);
+        }(document, 'script', 'facebook-jssdk'));</script>
+        
+        <div class="hold">
+            <h2>Social</h2>
+            <p>Check us out!</p>
+        </div>
+        
+        <div class="gallery-hold">
+                <div id="instafeed"></div>
+        </div>
+        
+        <div class="container">
+            <div class="fb-page" data-href="https://www.facebook.com/hobartmilkfactory/" data-tabs="timeline" data-width="500" data-height="530" data-small-header="true" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/hobartmilkfactory/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/hobartmilkfactory/">Hobart Milk Factory</a></blockquote></div>
+        </div>
+        
+        <div class="fb-like" data-href="https://www.facebook.com/hobartmilkfactory/" data-width="50" data-layout="standard" data-action="like" data-size="large" data-show-faces="true" data-share="true"></div>
+
+        <div class="clear"></div>
+    </main>
+    
+    <footer>
+        <a href="https://www.facebook.com/hobartmilkfactory/"><i class="fa fa-facebook-official"></i></a>
+        <a href="https://www.instagram.com/hobartmilkfactory/"><i class="fa fa-instagram"></i></a>
+        
+    </footer>
+    <script>document.createElement('main');</script> 
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script type="text/javascript" src="scripts/navigation.js"></script>
+    <script type="text/javascript" src="scripts/social-media.js"></script>
+    
+</body>
+</html>
