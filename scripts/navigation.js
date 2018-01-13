@@ -17,7 +17,7 @@ $(document).ready(function () {
     });
 });
 
-var query = false, didScroll, $menu = $('#menu');
+var query = false, didScroll, $menu = $('.mb');
 
 // Script to open and close sidebar on click event
 function sidebar_close() {
